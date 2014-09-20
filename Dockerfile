@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER http://github.com/dockerimages/docker-galera-controller
+MAINTAINER http://github.com/dockerimages/docker-galera
 # dockerimages/docker-galera-controller:latest git://github.com/dockerimages/docker-galera-controller
 RUN sudo apt-get update \
  && sudo apt-get install python-software-properties \
